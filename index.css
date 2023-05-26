@@ -1,0 +1,56 @@
+
+body{
+    background-image: url(jball.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#new{
+    margin-top: 400px;
+}
+
+.home{
+    margin-top: 350px;
+    background-color: rgb(42, 6, 247);
+    padding: 20px;
+    border-radius: 15px;
+    background: radial-gradient(at 18% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 79% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 96% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+    radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 4% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0)
+    radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+}
+
+.guest{
+    margin-top: 350px;
+    background-color: rgb(247, 34, 6);
+    padding: 20px;
+    border-radius: 15px;
+    background: radial-gradient(at 18% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 79% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 96% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+    radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 4% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0)
+    radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+}
+
+button{
+    background-color: rgb(8, 163, 60);
+    color: beige;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#numberHome, #numberGuest{
+    color: red;
+    font-family: 'digital', sans-serif;
+    font-size: 28px;
+}
